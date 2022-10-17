@@ -20,6 +20,7 @@ Para  iniciar uma instância do Redis localmente com o Docker, basta utilizar o 
 
 ## Evidências
 Na primeira consulta realizada levou cerca de  1.74 Segundos, pois como não a dados disponiveis no cache é necessario realizar a busca dentro do banco de dados.
+
 ![SemCache](https://user-images.githubusercontent.com/54037557/196296650-bed96c18-1b0f-4a9c-8b7d-adb082be9cec.jpg)
 
 Ja na segunda consulta realizada levou cerca de  5.67 milissegundos, pois desta vez os dados foram buscados diretamente do cache ao inves de ir no banco de dados.
